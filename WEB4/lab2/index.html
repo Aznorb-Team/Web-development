@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Get image</title>
+    </head>
+    <body align="center">
+        <h1>Get image</h1>
+        <img src="https://static.wikia.nocookie.net/bleachpedia/images/2/26/2Ichigo_profile.png/revision/latest?cb=20180407183328&path-prefix=ru" id="leo">
+        <hr>
+        <button onclick="getImage()">Get image</button>
+        <script>
+            function ge(id) {
+                return document.getElementById(id);
+            }
+            function getImage() {
+                ge('leo').setAttribute('src', 'https://static.wikia.nocookie.net/bleachpedia/images/3/39/1Ichigo_becomes.png/revision/latest?cb=20180407181720&path-prefix=ru');
+            }
+        </script>
+    </body>
+</html>
